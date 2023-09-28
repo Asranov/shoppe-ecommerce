@@ -1,12 +1,4 @@
-
-interface IJewellery {
-  id: number;
-  name: string;
-  price: string;
-  img: string;
-  description: string;
-}
-
+import { IJewellery } from "../models/IJewellery";
 
 export const jewelleries: IJewellery[] = [
   {
