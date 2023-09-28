@@ -1,9 +1,10 @@
 import React from 'react';
+import Routers from './routers/Routers';
 
 function App() {
   return (
     <>
-      <h2>APP</h2>
+      <Routers />
     </>
   );
 }
